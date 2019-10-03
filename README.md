@@ -1,7 +1,9 @@
 Improve your android screencap.
+
 Article in Russian: 
 
 This project was compiled using the NDK (Mac OS Mojave) for Android 6.0. For another version, you need to replace * .so files in the root, as well as, possibly, some * .h files. Compilation was carried out under ARMv7.
+
 The command to compile:
 ./bin/clang -pie ./project/screencap.cpp ./project/*.so -o ./project/screencap -Wl,--unresolved-symbols=ignore-all -s
 
