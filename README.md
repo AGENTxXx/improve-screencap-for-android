@@ -6,20 +6,19 @@ This project was compiled using the NDK (Mac OS Mojave) for Android 6.0. For ano
 
 The command to compile:
 
-`./bin/clang -pie ./project/screencap.cpp ./project/*.so -o ./project/screencap -Wl,--unresolved-symbols=ignore-all -s`
+```./bin/clang -pie ./project/screencap.cpp ./project/*.so -o ./project/screencap -Wl,--unresolved-symbols=ignore-all -s```
 
 Upload screencap to phone;
 
-`adb shell ./project/screencap /data/local/tmp`
+```
+adb shell ./project/screencap /data/local/tmp
+```
 
 And run for check:
-
-`adb shell`
-
-`cd /data/local/tmp`
-
-`//Print pixel color (HEX RGBA format). Example FF0000FF is RED`
-
-`./screencap -с 400 400`
-
-`./screencap -r /sdcard/test.png 0 0 500 500`
+```
+adb shell
+cd /data/local/tmp
+//Print pixel color (HEX RGBA format). Example FF0000FF is RED
+./screencap -с 400 400
+./screencap -r /sdcard/test.png 0 0 500 500
+```
