@@ -11,8 +11,8 @@ Upload screencap to phone;
 `adb shell ./project/screencap /data/local/tmp`
 
 And run for check:
-`adb shell
-cd /data/local/tmp
-//Print pixel color (HEX RGBA format). Example FF0000FF is RED
-./screencap -с 400 400
-./screencap -r /sdcard/test.png 0 0 500 500`
+`adb shell`
+`cd /data/local/tmp`
+`//Print pixel color (HEX RGBA format). Example FF0000FF is RED`
+`./screencap -с 400 400`
+`./screencap -r /sdcard/test.png 0 0 500 500`
