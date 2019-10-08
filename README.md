@@ -1,6 +1,6 @@
 Improve your android screencap.
 
-Article in Russian: 
+Article in Russian: https://habr.com/ru/post/456264/
 
 This project was compiled using the NDK (Mac OS Mojave) for Android 6.0. For another version, you need to replace ***.so** files in **./project**, as well as, possibly, some ***.h** files. Compilation was carried out under ARMv7.
 
